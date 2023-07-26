@@ -10,7 +10,7 @@ const searchDiv = document.querySelector("#search");
 window.addEventListener("DOMContentLoaded", async () => {
   try {
     loader.classList.remove("hidden");
-    const response = await fetch("https://api.github.com/users/sujitmemane");
+    const response = await fetch("https://api.github.com/users/gautamayush303");
     const data = await response.json();
     showProfileInfo(data);
   } catch (error) {
